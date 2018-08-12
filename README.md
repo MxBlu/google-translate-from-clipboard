@@ -1,9 +1,24 @@
-# google-translate-from-clipboard
+# Google Translate from Clipboard
 
-## Translate text from clipboard and get translation with system notification
+Translate text from clipboard and get translation with system alert
 
-For start, run command:
-```javascript
-npm install -g google-translate-from-clipboard //With sudo on Linux
+## Requirements
+
+ - Node.js
+ - clipboardy
+ - google-translate-api
+ - dialog
+
+## Installation
+ 
 ```
-After then assign a hotkey to call the script with the help of system functions
+npm install -g //With sudo on Linux
+```
+
+## Usage
+
+Run `google-translate-from-clipboard` with text in clipboard to translate to the English. Using AutoHotKey or another program to bind the command to a macro is ideal.
+
+## Notes
+
+To change translated language, change `lang` in `index.js`.
